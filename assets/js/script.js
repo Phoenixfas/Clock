@@ -27,14 +27,14 @@ btn.addEventListener("click", function () {
   if (nightMode) {
     nightMode = false;
     btn.style.transform = "translateX(100%)";
-    btn.style.backgroundImage = "url(./images/day.png)";
+    btn.style.backgroundImage = "url(./assets/images/day.png)";
     btn.style.backgroundColor = "#111";
     body.style.backgroundColor = "#ddd";
     swich.style.borderColor = "#000";
   } else {
     nightMode = true;
     btn.style.transform = "translateX(0%)";
-    btn.style.backgroundImage = "url(./images/night.png)";
+    btn.style.backgroundImage = "url(./assets/images/night.png)";
     btn.style.backgroundColor = "#fff";
     body.style.backgroundColor = "#111";
     swich.style.borderColor = "#fff";
